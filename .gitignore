@@ -1,0 +1,9 @@
+build
+cpp00
+cpp01
+cpp02
+cpp03
+*.o
+*.d
+a.out
+*_shrubbery
