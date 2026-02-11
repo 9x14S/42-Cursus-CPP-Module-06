@@ -26,7 +26,7 @@ $(BUILD_DIR)/%.o: %.cpp Makefile
 
 # Cleaning
 clean:
-	rm -f $(OBJS) $(DEPS) *_shrubbery
+	rm -f $(OBJS) $(DEPS)
 	rm -rf $(BUILD_DIR)
 fclean: clean
 	rm -f $(TARGET)

@@ -1,12 +1,12 @@
 .PHONY     : all re clean fclean
 
-TARGET     := cpp00
+TARGET     := cpp02
 
 CXX        := /usr/bin/c++
 CXXFLAGS   := -Wall -Wextra -Werror -MMD -std=c++98 -I.
 
 BUILD_DIR  := build
-SRCS       := main.cpp ScalarConverter.cpp
+SRCS       := functions.cpp Base.cpp main.cpp 
 OBJS       := $(SRCS:%.cpp=$(BUILD_DIR)/%.o)
 DEPS       := $(OBJS:.o=.d)
 
